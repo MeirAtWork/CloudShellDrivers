@@ -1,0 +1,5 @@
+cloudshell-shell-core>=5.0.5,<5.1.0
+cloudshell-automation-api>=9.3.0.0,<9.4.0.0
+requests==2.22.0
+tenacity==6.0.0
+ipaddress==1.0.23

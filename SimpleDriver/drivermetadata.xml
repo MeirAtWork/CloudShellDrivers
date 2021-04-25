@@ -1,0 +1,12 @@
+<Driver Description="Meir's modified driver for HelperVM resource" MainClass="driver.Resource_Driver" Name="Meirs_HelperVM_Driver" Version="3.2.0">
+    <Layout>
+        <Category Name="Meirs Command">
+            <Command Description="Feedback Command" DisplayName="Run feedback Command" Name="cmd_run_cleanup_command" >
+				<Parameters>
+                    <Parameter DisplayName="batch" Name="batch" Type="String" Mandatory="True"  DefaultValue="" Description="the batch number"/>
+                    <Parameter DisplayName="number" Name="number" Type="String" Mandatory="True"  DefaultValue="" Description="the number in th batch"/>
+                </Parameters>
+            </Command>
+        </Category>
+	</Layout>
+</Driver>

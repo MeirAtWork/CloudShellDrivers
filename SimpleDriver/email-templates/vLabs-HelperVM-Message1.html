@@ -1,0 +1,43 @@
+<p>Hello {{ReservationUser}},<br>
+<br>
+</p>
+<p>Here is the report about execution of the command on HelperVM resource.<br></p>
+
+<h2>Command Report</h2>
+<p>
+    Command:  <b>{{CommandLine}}</b><br>
+Description:  {{CommandDescription}}<br>
+Timeout = {{CommandTimeout}}<br>
+Elapsed Time = {{TimeElapsed}} seconds<br>
+Result Exit code = {{Status}}<br>
+<br>
+The command produced the following output (stdout):<br>
+<pre>
+------------------------------- Begin -------------------------------
+{{StdOut}}
+-------------------------------  End  -------------------------------</pre>
+<p><br><br>The command sent this text to the standard error stream (stderr):
+<br></p>
+<pre>
+------------------------------- Begin -------------------------------
+{{StdErr}}
+-------------------------------  End  -------------------------------</pre>
+<p>
+<br>
+The sandbox is scheduled to end at {{ReservationEndtime}} UTC.<br>
+<p>For your convenience, here is the <a href="https://portal.cloudlabs.juniper.net/RM/Diagram/Index/{{ReservationId}}">Direct link to your sandbox</a><br>
+<br><br>
+</p>
+
+<h2>Do you need help with JCL sandbox? </h2>
+<p>Check out the <a href="https://jlabs.juniper.net/assets/pdf/vlabs/vlabs-ug.pdf">vLabs User Guide</a> or the <a href="https://jlabs.juniper.net/assets/pdf/vlabs/vlabs-faq.pdf">vLabs FAQ</a>.<br>
+<br>If you still cannot resolve the issues, please reply to this email and provide details.
+<br>
+</p>
+
+<p>
+<br>
+vLabs Support<br><br></p>
+
+
+
